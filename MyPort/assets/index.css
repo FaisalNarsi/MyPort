@@ -1,0 +1,24 @@
+.bkg {
+  background-image: url("images/bg.jpg");
+  background-position: 20% 50%;
+}
+
+.me h1 {
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  font-size: 30px;
+}
+
+body, p, h1, .info {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.info-hov:hover {
+  background-color: lightgreen;
+}
+
+form {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 18px;
+  text-align: left;
+}
