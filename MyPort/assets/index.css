@@ -1,7 +1,7 @@
 
-#section1 {
+/*#section1 {
   padding-top:50px;
-  height:500px;
+  height:;
   color: #fff;
   background-color: white;
   color: black;
@@ -46,11 +46,18 @@
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-      width: 70%;
-      height: auto;
-      margin: auto;
-      align-content: center;
+  width: 70%;
+  margin: auto;
+
   }
+.item > img {
+  width: 40%;
+  height: 40%;
+  align-content: center;
+}
+
+
+
 #qr {
   float: right;
 }
@@ -93,4 +100,4 @@ form {
   font-family: 'Exo 2', sans-serif;
   font-size: 18px;
   text-align: left;
-}
+}*/
