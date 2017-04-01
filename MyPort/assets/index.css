@@ -1,20 +1,92 @@
-.bkg {
-  background-image: url("images/bg.jpg");
-  background-position: 20% 50%;
+
+#section1 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-family: 'Exo 2', sans-serif;
+}
+#qr {
+  float: right;
+}
+#section2 {
+  padding-top:50px;
+  height:600px;
+  color: #fff;
+  background-color: gray;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+}
+#section3 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: white;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+}
+#section4 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: gray;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+}
+#section5 {
+  padding-top:50px;
+  height:500px;
+  color: #fff;
+  background-color: lightblue;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
 }
 
-.me h1 {
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      height: auto;
+      margin: auto;
+      align-content: center;
+  }
+#qr {
+  float: right;
+}
+.thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+}
+
+
+.me {
   font-family: 'Exo 2', sans-serif;
   color: white;
   font-size: 30px;
 }
 
-body, p, h1, .info {
+body, p, .info .caption {
   font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+img {
+  float: left;
+}
+
+h1 {
+  font-family: 'Exo 2', sans-serif;
+  color: white;
 }
 
 .info-hov:hover {
   background-color: lightgreen;
+  border-radius: 10px
 }
 
 form {
